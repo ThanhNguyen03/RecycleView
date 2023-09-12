@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
+import android.content.res.XmlResourceParser;
 import android.os.Bundle;
 
 import com.example.recycleview.ImageAdapter;
@@ -36,13 +37,14 @@ public class MainActivity extends AppCompatActivity {
     private void parseXML() {
         XmlPullParserFactory parserFactory;
         try {
-            parserFactory = XmlPullParserFactory.newInstance();
-            XmlPullParser parser = parserFactory.newPullParser();
-            InputStream is = getAssets().open("data.xml");
-            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,false);
-            parser.setInput(is, null);
+            //parserFactory = XmlPullParserFactory.newInstance();
+            //XmlPullParser parser = parserFactory.newPullParser();
+            //InputStream is = getAssets().open("data.xml");
+            //parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,false);
+            //parser.setInput(is, null);
+            XmlResourceParser a = getResources().getXml(R.xml.listdata);
 
-            processParsing(parser);
+            processParsing(a);
 
 
         } catch (XmlPullParserException e) {

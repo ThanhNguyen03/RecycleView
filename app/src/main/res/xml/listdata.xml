@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+
     <data>
         <item>
-            <image>MusicSpace_image</image>
-            <text>Music in Space</text>
+            <image>musicspace_image</image>
+            <text>Music in a123</text>
         </item>
         <item>
-            <image>SunriseCity</image>
+            <image>sunrisecity</image>
             <text>Sunrise in City</text>
         </item>
         <item>
-            <image>WinterCoffee</image>
+            <image>wintercoffee</image>
             <text>Lofi Winter Coffee</text>
         </item>
         <item>
@@ -25,5 +25,13 @@
             <image>peacefulfield</image>
             <text>Peaceful Field</text>
         </item>
+        <item>
+            <image>vangogh</image>
+            <text>Van Gogh and Starry Night</text>
+        </item>
+        <item>
+            <image>paris</image>
+            <text>Paris at Night</text>
+        </item>
     </data>
-</resources>
+
