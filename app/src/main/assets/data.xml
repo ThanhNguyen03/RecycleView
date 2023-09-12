@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <data>
+        <item>
+            <image>musicspace_image</image>
+            <text>Music in Space</text>
+        </item>
+        <item>
+            <image>sunrisecity</image>
+            <text>Sunrise in City</text>
+        </item>
+        <item>
+            <image>wintercoffee</image>
+            <text>Lofi Winter Coffee</text>
+        </item>
+        <item>
+            <image>lofigaming_image</image>
+            <text>Chillin' Time</text>
+        </item>
+        <item>
+            <image>space_image</image>
+            <text>Space</text>
+        </item>
+        <item>
+            <image>peacefulfield</image>
+            <text>Peaceful Field</text>
+        </item>
+        <item>
+            <image>vangogh</image>
+            <text>Van Gogh and Starry Night</text>
+        </item>
+        <item>
+            <image>paris</image>
+            <text>Paris at Night</text>
+        </item>
+    </data>
+</resources>
